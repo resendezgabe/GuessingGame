@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<h1>Guessing Game</h1>
+	</header>
+	<main>
+		<section id="instructions">
+			<h2>Instructions</h2>
+			<p>Guess a number between 1 and 100. You have five attempts to guess the number. Good luck!</p>
+		</section>
+		<section id="game">
+			<label for="guess">Enter your guess:</label>
+			<input type="text" id="guess" name="guess">
+            <div class ="button-row">
+			<button id="submit">Submit</button>
+			<button id="reset">Reset</button>
+			<button id="hint">Hint</button>
+        </div>
+		</section>
+		<section id="feedback">
+			<p id="hint-text"></p>
+			<p id="attempts"></p>
+		</section>
+	</main>
+	<script src="index.js"></script>
+</body>
+</html>
